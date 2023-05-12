@@ -7,7 +7,7 @@ summary: Single-line elevator pitch for your amazing snap
   store.
 base: bare
 build-base: core22
-confinement: devmode
+confinement: strict
 parts:
   my-part:
     plugin: nil
